@@ -31,5 +31,5 @@ jobs:
       with:
         context: ./store
         push: true
-        tags: projectname:latest
+        tags: rbtn110/store:latest
         
