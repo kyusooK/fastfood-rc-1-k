@@ -18,7 +18,7 @@ jobs:
         java-version: '17'
 
     - name: Maven Package without tests
-      run: mvn clean package -f delivery/pom.xml -Dmaven.test.skip=true
+      run: mvn clean package -f store/pom.xml -Dmaven.test.skip=true
 
     - name: Login to DockerHub
       uses: docker/login-action@v1
