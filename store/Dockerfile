@@ -1,5 +1,9 @@
 FROM eclipse-temurin:17-jdk-jammy
 
-COPY target/store.jar store.jar
+EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "/store.jar"]
+COPY store.jar store.jar
+
+CMD ["java", "-jar", "store.jar"]
+
+
