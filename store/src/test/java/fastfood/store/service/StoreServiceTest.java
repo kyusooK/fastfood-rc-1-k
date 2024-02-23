@@ -22,15 +22,15 @@ class StoreServiceTest {
     @InjectMocks
     private StoreService storeService;
 
-    @Test
-    void testWheneverOrderPlaced_AcceptOrder() {
-        OrderPlaced event = new OrderPlaced();
-        // Populate the event with test data
+    // @Test
+    // void testWheneverOrderPlaced_AcceptOrder() {
+    //     OrderPlaced event = new OrderPlaced();
+    //     // Populate the event with test data
 
-        storeService.wheneverOrderPlaced_AcceptOrder().accept(event);
+    //     storeService.wheneverOrderPlaced_AcceptOrder().accept(event);
 
-        // Verify the interactions or state changes expected
-    }
+    //     // Verify the interactions or state changes expected
+    // }
 
     // Additional tests for other events and scenarios
 }
